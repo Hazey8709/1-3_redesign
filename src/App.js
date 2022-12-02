@@ -1,3 +1,4 @@
+import Cform from "./components/formComp/Cform";
 import Header from "./components/Header";
 import Nav from "./components/navComp/Nav";
 
@@ -7,6 +8,7 @@ function App() {
             <Header logoTitle='Jordan' />
             <main style={style.mainCont}>
                 <Nav />
+                <Cform />
             </main>
         </content>
     );
