@@ -25,7 +25,7 @@ const style = {
     headerCont: {
         display: "flex",
         border: "1px solid white",
-        borderBottom: "px solid white",
+        borderBottom: "3px solid white",
         borderBottomRightRadius: "1rem",
         borderBottomLeftRadius: "1rem",
         backgroundColor: "#0005",

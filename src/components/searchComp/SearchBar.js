@@ -25,15 +25,16 @@ const style = {
     },
 
     searchBtn: {
-        border: ".2rem inset black",
+        border: ".2rem outset black",
         borderRadius: ".2rem",
         marginRight: ".3rem",
         fontWeight: "bold",
         color: "green",
+        cursor: "pointer",
     },
 
     input: {
-        border: ".2rem outset black",
+        border: ".2rem inset black",
         borderRadius: ".2rem",
         width: "13rem",
         backgroundColor: "antiqueWhite",

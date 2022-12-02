@@ -7,6 +7,7 @@ const Logo = (props) => {
 
 export default Logo;
 
+
 const style = {
     logo: {
         border: ".1rem solid white",
