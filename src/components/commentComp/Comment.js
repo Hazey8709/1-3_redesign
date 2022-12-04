@@ -11,7 +11,6 @@ const Comments = (props) => {
                     cCardTitle='Card Title'
                     cCardDetails='Card details Card details Card details Card details Card details Card details'
                 />
-                <CCard />
             </div>
         </section>
     );

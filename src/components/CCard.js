@@ -26,9 +26,10 @@ const style = {
         borderRadius: ".5rem",
         backgroundColor: "#0005",
         margin: "0 auto",
-        marginTop: ".5rem",
+        // marginTop: ".5rem",
+        marginBottom: "2rem",
         width: "90%",
-        height: "100%",
+        height: "20rem",
     },
 
     cCardImage: {

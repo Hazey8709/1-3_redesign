@@ -80,8 +80,7 @@ const style = {
     footerCont: {
         display: "flex",
         flexDirection: "row",
-        borderBottomLeftRadius: "10px",
-        borderBottomRightRadius: "10px",
+        borderRadius: "1rem",
         backgroundColor: "#0005",
         marginTop: ".3rem",
         width: "100%",
@@ -103,5 +102,6 @@ const style = {
     link: {
         padding: "1rem",
         fontSize: "1.3rem",
+        pointer: "cursor",
     },
 };

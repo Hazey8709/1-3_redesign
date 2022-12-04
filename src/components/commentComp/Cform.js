@@ -43,7 +43,7 @@ const style = {
         borderRadius: ".4rem",
         backgroundColor: "#0005",
         margin: "0 auto",
-        marginTop: "5rem",
+        marginTop: "4.7rem",
         marginLeft: "5rem",
 
         padding: ".5rem",
