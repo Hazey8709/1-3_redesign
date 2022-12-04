@@ -38,6 +38,7 @@ export default Cform;
 
 const style = {
     formCont: {
+        position: "absolute",
         // border: "1px solid white",
         borderRadius: ".2rem",
         backgroundColor: "#0005",
