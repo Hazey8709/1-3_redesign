@@ -80,6 +80,7 @@ const style = {
     footerCont: {
         display: "flex",
         flexDirection: "row",
+        border: "1px solid white",
         borderRadius: "1rem",
         backgroundColor: "#0005",
         marginTop: ".3rem",

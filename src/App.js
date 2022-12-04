@@ -30,10 +30,9 @@ export default App;
 const style = {
     mainCont: {
         display: "flex",
-        // position: "absolute",
         gridTemplateArea: "",
         marginTop: ".5rem",
-        border: "1px solid yellow",
+        // border: "1px solid yellow",
         width: "100%",
         height: "100%",
     },
