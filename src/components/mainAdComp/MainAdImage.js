@@ -2,7 +2,7 @@ import React from "react";
 import mainAdImage from "./fb-Ad.webp";
 
 const MainAdImage = (props) => {
-    return <img src={mainAdImage} alt='Main Ad Image' style={style.avatar} />;
+    return <img src={mainAdImage} alt={props.alt} style={style.avatar} />;
 };
 
 export default MainAdImage;

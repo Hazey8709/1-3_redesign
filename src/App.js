@@ -2,8 +2,8 @@ import Header from "./components/Header";
 import Nav from "./components/navComp/Nav";
 import MainAd from "./components/mainAdComp/MainAd";
 import Ads from "./components/adComp/Ads";
-//import CCard from "./components/cardComp/CCard";
-//import Cform from "./components/formComp/Cform";
+import Comments from "./components/commentComp/Comment";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -18,8 +18,9 @@ function App() {
                     '
                 />
                 <Ads />
-                {/* <Cform /> */}
             </main>
+            <Comments />
+            <Footer />
         </section>
     );
 }

@@ -23,6 +23,7 @@ const style = {
         flexDirection: "column",
         border: "1px solid white",
         borderTopLeftRadius: "1rem",
+        borderBottomLeftRadius: "1rem",
         backgroundColor: "#0005",
         width: "10rem",
         height: "50rem",

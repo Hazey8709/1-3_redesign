@@ -9,7 +9,6 @@ const MainAd = (props) => {
             <h3 style={style.mainAdTitle}>{props.mainAdTitle}</h3>
             <p style={style.aboutPara}>{props.aboutPara}</p>
             <MainAdImage />
-            {/* <div style={style.imageCont}></div> */}
         </div>
     );
 };
@@ -18,7 +17,7 @@ export default MainAd;
 
 const style = {
     adsCont: {
-        border: "1px solid red",
+        // border: "1px solid red",
         height: "50rem",
         width: "100%",
         margin: "0 auto",

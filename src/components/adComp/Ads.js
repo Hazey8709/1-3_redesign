@@ -8,15 +8,15 @@ const Ads = (props) => {
         <div style={style.adsCont}>
             <div style={style.adCont}>
                 <p style={style.adTitle}>{props.ad1Title}</p>
-                <img src={Ad1} style={style.ad1}></img>
+                <img src={Ad1} style={style.ad1} alt={props.alt}></img>
             </div>
             <div style={style.adCont}>
                 <p style={style.adTitle}>{props.ad2Title}</p>
-                <img src={Ad2} style={style.ad2}></img>
+                <img src={Ad2} style={style.ad2} alt={props.alt}></img>
             </div>
             <div style={style.adCont}>
                 <p style={style.adTitle}>{props.ad3Title}</p>
-                <img src={Ad3} style={style.ad3}></img>
+                <img src={Ad3} style={style.ad3} alt={props.alt}></img>
             </div>
         </div>
     );
@@ -29,8 +29,9 @@ const style = {
         display: "flex",
         flexDirection: "column",
         // position: "relative",
-        // border: "1px solid white",
+        border: "1px solid white",
         borderTopRightRadius: "1rem",
+        borderBottomRightRadius: "1rem",
         width: "13rem",
         height: "50rem",
         // padding: ".3rem",
@@ -38,9 +39,9 @@ const style = {
     },
 
     adCont: {
-        border: "1px solid white",
+        // border: "1px solid white",
         borderRadius: "5px",
-        backgroundColor: "#bbb9b9",
+        // backgroundColor: "#bbb9b9",
         margin: "0 auto",
         marginTop: "5rem",
         textAlign: "center",
