@@ -2,7 +2,6 @@ import React from "react";
 import { FaEdit, FaTrash } from "react-icons/fa";
 import cardImage from "../images/NoobieJ-logo-1.png";
 
-
 const CCard = (props) => {
     return (
         <section style={style.cardCont}>
@@ -69,6 +68,7 @@ const style = {
         border: "2px outset black",
         borderRadius: ".3rem",
         margin: "0 auto",
+        marginTop: ".3rem",
         backgroundColor: "#f5b7b1",
         color: "red",
         fontWeight: "bold",
