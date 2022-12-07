@@ -12,24 +12,22 @@ import Footer from "./components/Footer";
 
 class App extends Component {
     state = {
-
-        cList: [{
-            cAvatar: AvatarImage1,
-            cName: "Jordan's Project",
-            cDescrip: 'Check out my Project',
-            cImg: ProjectImage,
-            Alt: '',
-        },
+        cList: [
             {
-            cAvatar: AvatarImage2 ,
-            cName: 'George',
-            cDescrip: 'I learned Css & Js, Finally!',
-            Alt: '',
-        },
-        ]
-    }
-
-
+                // cAvatar: AvatarImage1,
+                cName: "Jordan's Project",
+                cDescrip: "Check out my Project",
+                // cImg: ProjectImage,
+                Alt: "",
+            },
+            {
+                // cAvatar: AvatarImage2 ,
+                cName: "George",
+                cDescrip: "I learned Css & Js, Finally!",
+                Alt: "",
+            },
+        ],
+    };
 
     render() {
         return (
