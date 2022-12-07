@@ -1,5 +1,7 @@
 import React from "react";
+import { FaEdit, FaTrash } from "react-icons/fa";
 import cardImage from "../images/NoobieJ-logo-1.png";
+
 
 const CCard = (props) => {
     return (
@@ -9,10 +11,10 @@ const CCard = (props) => {
 
             <p style={style.cCardDetails}>{props.cCardDetails}</p>
             <button type='edit' style={style.editBtn}>
-                Edit
+                <FaEdit />
             </button>
             <button type='delete' style={style.deleteBtn}>
-                Delete
+                <FaTrash />
             </button>
         </section>
     );
@@ -33,8 +35,8 @@ const style = {
     },
 
     cCardImage: {
-        border: "1px solid yellow",
-        borderRadius: ".1rem",
+        // border: "1px solid yellow",
+        // borderRadius: ".1rem",
         marginTop: ".5rem",
         padding: ".5rem",
         width: "5rem",
@@ -58,6 +60,7 @@ const style = {
         backgroundColor: "#52be80",
         color: "darkGreen",
         fontWeight: "bold",
+        cursor: "pointer",
     },
 
     deleteBtn: {
@@ -69,5 +72,6 @@ const style = {
         backgroundColor: "#f5b7b1",
         color: "red",
         fontWeight: "bold",
+        cursor: "pointer",
     },
 };

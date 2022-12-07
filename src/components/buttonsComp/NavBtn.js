@@ -27,10 +27,11 @@ const style = {
         color: "white",
         fontWeight: "bold",
         width: "5rem",
-        padding: ".5rem",
         margin: "0 auto",
         marginBottom: "5rem",
         marginTop: "5rem",
+        paddingTop: ".5rem",
+        paddingBottom: ".5rem",
         cursor: "pointer",
     },
 };

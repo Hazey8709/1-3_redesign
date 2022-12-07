@@ -19,7 +19,7 @@ export default Nav;
 const style = {
     navCont: {
         display: "flex",
-        // position: "relative",
+        position: "relative",
         flexDirection: "column",
         border: "1px solid white",
         borderTopLeftRadius: "1rem",
