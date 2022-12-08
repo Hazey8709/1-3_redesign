@@ -1,20 +1,45 @@
-import React from "react";
+import React, { Component } from "react";
+
 import Cform from "./Cform";
 import CCard from "../CCard";
+// import CommList from "./components/";
+// import AvatarImage1 from "./images";
+// import AvatarImage2 from "./images";
+// import ProjectImage from "./images";
 
-const Comments = (props) => {
-    return (
-        <section style={style.mainCommentsCont}>
-            <Cform />
-            <div style={style.comsCont}>
-                <CCard
-                    cCardTitle='Card Title'
-                    cCardDetails='Card details Card details Card details Card details Card details Card details'
-                />
-            </div>
-        </section>
-    );
-};
+class Comments extends Component() {
+    state = {
+        cList: [
+            {
+                // cAvatar: AvatarImage1,
+                cName: "Jordan's Project",
+                cDescrip: "Check out my Project",
+                // cImg: ProjectImage,
+                Alt: "",
+            },
+            {
+                // cAvatar: AvatarImage2 ,
+                cName: "George",
+                cDescrip: "I learned Css & Js, Finally!",
+                Alt: "",
+            },
+        ],
+    };
+
+    render() {
+        return (
+            <section style={style.mainCommentsCont}>
+                <Cform />
+                <div style={style.comsCont}>
+                    <CCard
+                        cCardTitle='Card Title'
+                        cCardDetails='Card details Card details Card details Card details Card details Card details'
+                    />
+                </div>
+            </section>
+        );
+    }
+}
 
 export default Comments;
 
@@ -22,7 +47,7 @@ const style = {
     mainCommentsCont: {
         display: "flex",
         flexDirection: "column",
-        border: "1px solid white",
+        border: "1px solid red",
         borderRadius: "1rem",
         backgroundColor: "#0005",
         marginTop: "2rem",

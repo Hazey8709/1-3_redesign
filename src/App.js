@@ -4,31 +4,9 @@ import Nav from "./components/navComp/Nav";
 import MainAd from "./components/mainAdComp/MainAd";
 import Ads from "./components/adComp/Ads";
 import Comments from "./components/commentComp/Comment";
-// import CommList from "./components/";
-// import AvatarImage1 from "./images";
-// import AvatarImage2 from "./images";
-// import ProjectImage from "./images";
 import Footer from "./components/Footer";
 
 class App extends Component {
-    state = {
-        cList: [
-            {
-                // cAvatar: AvatarImage1,
-                cName: "Jordan's Project",
-                cDescrip: "Check out my Project",
-                // cImg: ProjectImage,
-                Alt: "",
-            },
-            {
-                // cAvatar: AvatarImage2 ,
-                cName: "George",
-                cDescrip: "I learned Css & Js, Finally!",
-                Alt: "",
-            },
-        ],
-    };
-
     render() {
         return (
             <section>
