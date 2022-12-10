@@ -1,34 +1,34 @@
 import React, { Component } from "react";
 import Cform from "./Cform";
 import CCard from "../CCard";
-// import ComArticle from "./ComArticle";
+import ComArticle from "./ComArticle";
 // import AvatarImage1 from "./images";
 // import AvatarImage2 from "./images";
 // import ProjectImage from "./images";
 
 class Comments extends Component() {
-    // state = {
-    //     cList: [
-    //         {
-    //             // cAvatar: AvatarImage1,
-    //             cName: "Jordan's Project",
-    //             cDescrip: "Check out my Project",
-    //             // cImg: ProjectImage,
-    //             cAlt: "project",
-    //         },
-    //         {
-    //             // cAvatar: AvatarImage2 ,
-    //             cName: "George",
-    //             cDescrip: "I learned Css & Js, Finally!",
-    //             cAlt: "project 2",
-    //         },
-    //     ],
-    // };
+    state = {
+        cList: [
+            {
+                // cAvatar: AvatarImage1,
+                cName: "Jordan's Project",
+                cDescrip: "Check out my Project",
+                // cImg: ProjectImage,
+                cAlt: "project",
+            },
+            {
+                // cAvatar: AvatarImage2 ,
+                cName: "George",
+                cDescrip: "I learned Css & Js, Finally!",
+                cAlt: "project 2",
+            },
+        ],
+    };
 
     render() {
-        // const commList = this.state.cList.map((element, i) => {
-        //     return <ComArticle key={i} val={element} />;
-        // });
+        const commList = this.state.cList.map((element, i) => {
+            return <ComArticle key={i} val={element} />;
+        });
 
         return (
             <section style={style.mainCommentsCont}>
@@ -38,7 +38,7 @@ class Comments extends Component() {
                         cCardTitle='Card Title'
                         cCardDetails='Card details Card details Card details Card details Card details Card details'
                     />
-                    {/* {commList} */}
+                    {commList}
                 </div>
             </section>
         );
